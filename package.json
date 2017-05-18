@@ -1,0 +1,54 @@
+{
+  "name": "jacob-zuma",
+  "version": "1.0.0",
+  "description": "South African flavored no operation as a module",
+  "license": "MIT",
+  "main": "dist/jacob-zuma.common.js",
+  "browser": "dist/jacob-zuma.js",
+  "jsnext:main": "dist/jacob-zuma.es.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiaanduplessis/jacob-zuma.git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/jacob-zuma",
+  "bugs": "https://github.com/tiaanduplessis/jacob-zuma/issues",
+  "author": {
+    "name": "Tiaan",
+    "email": "tiaanduplessis@hotmail.com",
+    "url": "tiaan.beer"
+  },
+  "scripts": {
+    "start": "npm run test; npm run build",
+    "pretest": "npm run lint:fix",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "coverage": "npm test -- --coverage",
+    "lint": "standard --verbose",
+    "lint:fix": "standard --fix --verbose",
+    "precommit": "npm test",
+    "build": "bili --format cjs --format es --format umd --compress",
+    "prepublish": "npm run build",
+    "release": "npm run build && npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push --tags && npm publish"
+  },
+  "keywords": [
+    "noop",
+    "no-operation",
+    "jacob-zuma"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0",
+    "bili": "^0.15.0",
+    "husky": "^0.13.3",
+    "jest": "^20.0.1",
+    "standard": "^10.0.2"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "standard": {
+    "ignore": "dist"
+  }
+}
