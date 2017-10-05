@@ -64,6 +64,8 @@
 
 ## About
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/jacob-zuma.svg)](https://greenkeeper.io/)
+
 Inspired by [noop2](https://github.com/yoshuawuyts/noop2). 100% guaranteed to do nothing.
 
 ## Install
