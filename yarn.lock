@@ -1451,10 +1451,10 @@ big.js@^3.1.3:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/big.js/-/big.js-3.2.0.tgz#a5fc298b81b9e0dca2e458824784b65c52ba588e"
 
-bili@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/bili/-/bili-4.5.0.tgz#fe85b2b225262a1686675fc5680f8db04ca38efc"
-  integrity sha512-GYJnRCmHUjmg+6E+djGj7rdQPojl90TshynwtaXnbbNCXY8SjgYaupoMjptsB3xXwwQ/GZfrmZUHY+AutokUEg==
+bili@^4.7.2:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/bili/-/bili-4.7.2.tgz#8ab320a99e08e6080206914e1ffebd4a90536025"
+  integrity sha512-17/AcekUbt8jtOLprVqQNtjhm4CuFd+aEQlJsCa/A7tmc/BZaYJ5Bki0vWT3ruRAnEkFIfc70gDcIyzmL72nyw==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-object-rest-spread" "^7.3.1"
